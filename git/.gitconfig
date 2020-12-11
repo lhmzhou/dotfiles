@@ -1,0 +1,27 @@
+[alias]
+    br = branch -v
+    ci = commit
+    cm = commit -m
+    ca = commit -am
+    co = checkout
+    st = status
+[apply]
+    # Detect whitespace errors when applying a patch
+    whitespace = fix
+[branch]
+    autosetuprebase = always
+[color]
+    # Use color where available
+    ui = auto
+[core]
+    editor = nvim
+    excludesfile = /Users/lhmzhou/.gitignore
+[help]
+    # Automatically correct and execute typos
+    autocorrect = 1
+[push]
+    default = current
+[user]
+    user = lhmzhou
+    name = Linda Zhou
+
